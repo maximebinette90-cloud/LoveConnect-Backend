@@ -38,11 +38,12 @@
     "helmet": "^7.2.0",
     "jsonwebtoken": "^9.0.2",
     "moment": "^2.29.4",
-    "mongoose": "^8.19.1",
     "morgan": "^1.10.1",
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.7",
+    "pg": "^8.16.3",
     "redis": "^4.6.11",
+    "sequelize": "^6.37.7",
     "socket.io": "^4.8.1",
     "stripe": "^14.9.0",
     "uuid": "^9.0.1"
