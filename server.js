@@ -44,7 +44,7 @@ const io = new Server(server, {
 const PORT = process.env.PORT || 3000;
 
 // Configuration de la base de données Sequelize
-const sequelize = new Sequelize(process.env.DATABASE_URL, {
+const sequelize = new Sequelize(process.env.URL_BASE_DE_DONNEES || process.env.DATABASE_URL, {
   dialect: 'postgres',
   protocol: 'postgres',
   dialectOptions: {
